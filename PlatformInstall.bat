@@ -21,9 +21,9 @@ mkdir "C:\Program Files (x86)\AndroidSDK"
 COPY * "C:\Program Files (x86)\AndroidSDK"
 del "C:\Program Files (x86)\AndroidSDK\PlatformInstall.bat"
 setx Path "%PATH%;C:\Program Files (x86)\AndroidSDK"
-:no
 ECHO.
 ECHO.
 ECHO "###################################"
 ECHO "# Please reboot your Computer for the changes to take effect #"
+:no
 pause
