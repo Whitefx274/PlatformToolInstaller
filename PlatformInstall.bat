@@ -20,6 +20,7 @@ GOTO start
 mkdir "C:\Program Files (x86)\AndroidSDK"
 COPY * "C:\Program Files (x86)\AndroidSDK"
 del "C:\Program Files (x86)\AndroidSDK\PlatformInstall.bat"
+del "C:\Program Files (x86)\AndroidSDK\Update.bat"
 setx Path "%PATH%;C:\Program Files (x86)\AndroidSDK"
 ECHO.
 ECHO.
