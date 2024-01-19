@@ -27,5 +27,6 @@ ECHO.
 ECHO "###################################"
 ECHO "ADB and Fastboot has now been updated"
 pause
+exit
 :no
 pause
