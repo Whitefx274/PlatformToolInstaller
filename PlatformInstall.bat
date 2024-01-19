@@ -25,5 +25,7 @@ ECHO.
 ECHO.
 ECHO "###################################"
 ECHO "# Please reboot your Computer for the changes to take effect #"
+pause
+exit
 :no
 pause
